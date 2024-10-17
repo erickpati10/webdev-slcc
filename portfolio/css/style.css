@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(23, 66%, 60%);
+}
+.resume {
+  color: hsl(227, 86%, 55%);
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style: none;
+  background-color: hsl(0, 1%, 30%);
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+}
+.navbar li:hover {
+  background-color: hsl(0, 2%, 40%);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  display: block;
+  font-size: 17px;
+}
+
+.intro {
+  text-align: center;
+  padding: 15px;
+  margin: 6rem;
+  border-radius: 50px;
+}
+h3,
+h4,
+p,
+h1,
+li,
+label {
+  color: white;
+}
+
+.intro p {
+  margin: 2rem;
+}
+.main-container {
+  padding: 15px;
+}
+
+.main-container h1 {
+  text-align: center;
+}
+.main-container p {
+  padding-bottom: 15px;
+}
+
+form {
+  text-align: center;
+  margin: 15px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}

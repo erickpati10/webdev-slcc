@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Introduction</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="resume.html">My Resume</a>
-        <ul style="display: flex; justify-content: space-around">
+      <nav class="navbar">
+        <ul>
+          <li><a class="resume-link" href="resume.html">My Resume</a></li>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -17,7 +18,7 @@
         </ul>
       </nav>
     </header>
-    <main style="text-align: center">
+    <main class="intro">
       <h1>Hello, I'm Erick Patino</h1>
       <h3>Culinary Artist Turned Tech Enthusiast</h3>
 
@@ -35,7 +36,10 @@
         my love for creation with my technical curiosity.
       </p>
 
-      <a href="resume.html">My Resume</a>
+      <a class="resume" href="resume.html">My Resume</a>
     </main>
+    <footer>
+      <small>&copy; 2024 Erick Patino. All Rights Reserved.</small>
+    </footer>
   </body>
 </html>
