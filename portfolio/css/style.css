@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: hsl(23, 66%, 60%);
+  background-color: hsl(193, 26%, 72%);
 }
 .resume {
   color: hsl(227, 86%, 55%);
@@ -13,25 +13,31 @@ body {
   text-decoration: none;
 }
 
-.navbar ul {
-  list-style: none;
-  background-color: hsl(0, 1%, 30%);
-  overflow: auto;
+.navbar,
+.resume-link {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(112, 112, 112);
 }
 
-.navbar li {
-  float: left;
-}
-.navbar li:hover {
-  background-color: hsl(0, 2%, 40%);
+.nav-items {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar a {
-  text-decoration: none;
+a {
+  font-size: 18px;
   color: white;
   padding: 15px;
-  display: block;
-  font-size: 17px;
+  text-decoration: none;
+}
+.nav-items a:hover {
+  background-color: rgb(203, 203, 211);
+}
+
+.resume-link a:hover {
+  background-color: rgb(203, 203, 211);
 }
 
 .intro {
